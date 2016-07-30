@@ -13,7 +13,8 @@ public class ItemHelper {
 			"cofh.api.item.IToolHammer",
 			"powercrystals.minefactoryreloaded.api.IMFRHammer",
 			"appeng.api.implementations.items.IAEWrench",
-			"crazypants.enderio.api.tool.ITool"
+			"crazypants.enderio.api.tool.ITool",
+			"crazypants.enderio.api.tool.IHideFacades"
 	};
 
 	public static final Class<?>[] wrenchClasses;
