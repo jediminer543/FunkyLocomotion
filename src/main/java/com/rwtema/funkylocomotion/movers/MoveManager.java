@@ -236,7 +236,7 @@ public class MoveManager {
 				if (watchingPlayer.openContainer != watchingPlayer.inventoryContainer && watchingPlayer.openContainer != null) {
 					for (Object o : watchingPlayer.openContainer.inventorySlots) {
 						Slot s = (Slot) o;
-						if (inventories.contains(s.inventory)) {
+						if (s.inventory != null && watchingPlayer != null && inventories.contains(s.inventory)) {
 							watchingPlayer.closeScreen();
 							break;
 						}
